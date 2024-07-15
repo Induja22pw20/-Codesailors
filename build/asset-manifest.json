@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/-Codesailors/static/css/main.3c8e423c.css",
+    "main.js": "/-Codesailors/static/js/main.a4ec0c19.js",
+    "static/js/453.c4dddbf1.chunk.js": "/-Codesailors/static/js/453.c4dddbf1.chunk.js",
+    "static/media/a1.png": "/-Codesailors/static/media/a1.c1418a56a0820c4954c0.png",
+    "static/media/sc.png": "/-Codesailors/static/media/sc.eec7790c7d197e378ef5.png",
+    "static/media/s1.webp": "/-Codesailors/static/media/s1.b9913bfde67e3bef967b.webp",
+    "static/media/d2.jpg": "/-Codesailors/static/media/d2.00fb0afa2d0c903d8236.jpg",
+    "static/media/s3.jpg": "/-Codesailors/static/media/s3.f7a5dda311a7cfaab2dc.jpg",
+    "static/media/d3.jpeg": "/-Codesailors/static/media/d3.496a0ff9b257b7d6a7e3.jpeg",
+    "static/media/d1.jpg": "/-Codesailors/static/media/d1.99009e9aa682205c0367.jpg",
+    "static/media/doru.webp": "/-Codesailors/static/media/doru.a3cde6dd17bd2652ab57.webp",
+    "static/media/des.jpg": "/-Codesailors/static/media/des.60bd5de3a575b616214d.jpg",
+    "index.html": "/-Codesailors/index.html",
+    "main.3c8e423c.css.map": "/-Codesailors/static/css/main.3c8e423c.css.map",
+    "main.a4ec0c19.js.map": "/-Codesailors/static/js/main.a4ec0c19.js.map",
+    "453.c4dddbf1.chunk.js.map": "/-Codesailors/static/js/453.c4dddbf1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c8e423c.css",
+    "static/js/main.a4ec0c19.js"
+  ]
+}
