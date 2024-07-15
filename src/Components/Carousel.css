@@ -1,0 +1,76 @@
+/* Carousel.css */
+.carousel {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    width: 80%; /* Adjusted width */
+    height: 600px; /* Adjusted height */
+    align-items: center;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    border: 1px solid #ccc; /* Optional: Add a border for visual clarity */
+  }
+  
+  .slide {
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+    position: relative;
+    width: 100%; /* Each slide takes up 100% width of the carousel container */
+  }
+  
+  .slide img { 
+    width: 100%; /* Ensure images fill the slide container */
+    height: 100%; /* Ensure images fill the slide container */
+    object-fit: cover; /* Ensure images cover the entire slide */
+  }
+  
+  .slide-text {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel {
+      width: 100%; /* Adjusted for smaller screens */
+    }
+  }
+  .button-container {
+    position: absolute;
+    top: 50%; /* Align buttons vertically centered */
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Spacing between buttons */
+    padding: 0 20px; /* Adjust padding as needed */
+    box-sizing: border-box;
+  }
+  
+  .role-button {
+    background-color: rgba(30, 28, 30, 0.312);
+    color: white;
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    width:120px;
+    height:40px;
+  }
+  
+  .role-button.designer {
+    order: 1; /* Ensure designer button is positioned to the left */
+  }
+  
+  .role-button.customer {
+    order: 2; /* Ensure customer button is positioned to the right */
+  }

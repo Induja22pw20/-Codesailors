@@ -1,0 +1,62 @@
+/* designview.css */
+.design-view-container {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+  }
+  
+  body{
+    color:white;
+  }
+  h2 {
+    margin-top: 20px;
+  }
+  
+  .cards-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 30%;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; /* Add transition for smooth zoom effect */
+  }
+  
+  .card:hover {
+    transform: scale(1.05); /* Zoom effect on hover */
+  }
+  
+  .card img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card-description {
+    margin-top: 10px;
+  }
+  
+  .card-description h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .card-description p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #555;
+  }
+  button{
+    background-color: rgba(237, 19, 237, 0.884);
+    height: 30px;
+    width: 100px;
+    margin-bottom: 20px;
+    border:#555;
+    font-weight: 300;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif;
+  }
